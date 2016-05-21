@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #48382b;
+  box-shadow: 0 8px 8px #eee;
+  position: relative;
+}
+header .set {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+header .set .phone {
+  width: 100%;
+  height: 20px;
+}
+header .set .setheader {
+  font-size: 1rem;
+  color: #f1f1f1;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1% 4%;
+  position: relative;
+}
+header .set .setheader .leftarrow {
+  position: absolute;
+  left: 3.5%;
+  top: 25%;
+}
+header .set .setheader .leftarrow img {
+  width: 50%;
+}
+header .set .setheader .seo {
+  background: url(../img/saechkuang.png) no-repeat;
+  background-size: 100% 100%;
+  width: 71.33333%;
+  height: 28px;
+  margin: 0.5% auto;
+  position: relative;
+}
+header .set .setheader .seo img {
+  height: 80%;
+  margin-top: 0.5%;
+}
+header .set .setheader .seo input {
+  width: 85%;
+  height: 80%;
+  border: 0;
+  font-size: 1rem;
+  background-color: #403228;
+  position: relative;
+  top: -3px;
+  color: #948367;
+  outline: none;
+}
+header .set .setheader .quxiao {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 4%;
+  top: 25%;
+}
+.jilu {
+  margin: 5% 6% 0;
+}
+.jilu .inpu {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 2%;
+}
+.jilu .inpu span:nth-child(1) {
+  float: left;
+  color: #99886b;
+}
+.jilu .inpu span:nth-child(2) {
+  float: right;
+  color: #b0d261;
+}
+.jilu ul {
+  margin-top: 4%;
+}
+.jilu ul li {
+  list-style: none;
+  width: 50%;
+  padding-bottom: 9%;
+  float: left;
+}
+.hot {
+  margin: 0 6% 0;
+}
+.hot .hotseo {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 2%;
+}
+.hot .hotseo span {
+  float: left;
+  color: #99886b;
+}
+.hot ul {
+  margin-top: 4%;
+}
+.hot ul li {
+  list-style: none;
+  width: 50%;
+  padding-bottom: 9%;
+  float: left;
+}
+/*# sourceMappingURL=searchcss.css.map */

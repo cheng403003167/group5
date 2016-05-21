@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #48382b;
+    box-shadow: 0 8px 8px #eee;
+    position: relative;
+    .set{
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        .phone{
+            width: 100%;
+            height: 20px;
+        }
+        .setheader{
+            font-size: 1rem;
+            color: #f1f1f1;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 1% 4%;
+            position: relative;
+            .leftarrow{
+                position: absolute;
+                left: 3.5%;
+                top: 25%;
+                img{
+                   width: 50%; 
+                }
+            }
+            .seo{
+                background: url(../img/saechkuang.png) no-repeat;
+                background-size: 100% 100%;
+                width: 71.33333%;
+                height: 28px;
+                margin: 0.5% auto;
+                position: relative;
+                img{
+//                  width: 7%;
+                    height: 80%;
+                    margin-top: 0.5%;
+                }
+                input{
+                    width: 85%;
+                    height: 80%;
+                    border: 0;
+                    font-size: 1rem;
+                    background-color: #403228;
+                    position: relative;
+                    top: -3px;
+                    color: #948367;
+                    outline: none;
+                }
+            }
+            .quxiao{
+                font-size: 1.2rem;
+                position: absolute;
+                right: 4%;
+                top: 25%;
+            }
+        }
+    }
+}
+.jilu{
+    margin: 5% 6% 0;
+    .inpu{
+        border-bottom: 2px solid #eee;
+        padding-bottom: 2%;
+        span:nth-child(1){
+            float: left;
+            color: #99886b;
+        }   
+        span:nth-child(2){
+            float: right;
+            color: #b0d261;
+        }
+    }
+     ul {
+         margin-top: 4%;
+         li{
+            list-style: none;
+            width: 50%;
+            padding-bottom: 9%;
+            float: left;
+        }
+     }
+     
+}
+.hot{
+    margin: 0 6% 0;
+    .hotseo{
+        border-bottom: 2px solid #eee;
+        padding-bottom: 2%;
+        span{
+            float: left;
+            color: #99886b;
+        }
+    }
+     ul {
+         margin-top: 4%;
+         li{
+            list-style: none;
+            width: 50%;
+            padding-bottom: 9%;
+            float: left;
+        }
+     }
+     
+}
