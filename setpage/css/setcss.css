@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #48382b;
+  box-shadow: 0 8px 8px #eee;
+  position: relative;
+}
+header .set {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+header .set .phone {
+  width: 100%;
+  height: 20px;
+}
+header .set .setheader {
+  font-size: 1rem;
+  color: #f1f1f1;
+  height: 100%;
+  padding: 2% 4%;
+}
+header .set .setheader .leftarrow {
+  float: left;
+}
+header .set .setheader .leftarrow img {
+  width: 50%;
+}
+.content {
+  width: 100%;
+  margin-top: 4px;
+  background-color: #eee;
+  padding-top: 2.2%;
+}
+.content li {
+  padding: 4% 4%;
+  border-bottom: 2px solid #c5c4c4;
+  background-color: #fff;
+}
+.content li a {
+  text-decoration: none;
+}
+.content li a img {
+  width: 3.4%;
+  margin-right: 3.2%;
+}
+.content li span {
+  font-size: 0.8rem;
+}
+.content li .rightarrow {
+  float: right;
+  width: 2.4%;
+  height: 3%;
+}
+.content li:nth-child(4) {
+  margin-top: 2.2%;
+}
+.quit {
+  margin: 70% auto 0;
+  width: 92%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #F1F1F1;
+  font-size: 1rem;
+  background-color: #48382B;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=setcss.css.map */
