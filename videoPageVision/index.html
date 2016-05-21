@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<title>index</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<header id="head">
+				<img src="img/blank1.png" alt="" />
+				<div class="box">
+					<p><img src="img/left_arrow.png"/>赞赏</p>
+					<p>宝宝别闹，咬你</p>
+					<p>
+						<img src="img/head.png"/>
+						其实很爱你
+					</p>
+				</div>
+				
+				<div class="icon"><img src="img/blank2.png"/></div>
+			</header>
+			<div id="content">
+				<p><span>——</span>&nbsp;&nbsp;鼓励一下，期待您有更多好菜品&nbsp;&nbsp;<span>——</span></p>
+				<ul class="container clearfix">
+					<li><span>1</span>元</li>
+					<li><span>2</span>元</li>
+					<li><span>8</span>元</li>
+					<li><span>18</span>元</li>
+					<li><span>28</span>元</li>
+					<li><span>88</span>元</li>
+				</ul>
+				<p class="Btn1">自定义金额</p>
+				<p>
+					<img src="img/footer.png"/>
+					匿名赞赏
+				</p>
+			</div>
+			<div id="mask">
+				<div class="CPM">
+					<p>
+						<img src="img/close.png" alt="" class="quit"/>
+						自定义金额
+					</p>
+					<div class="Input">
+						<span>&nbsp;&nbsp;金额（元）</span>
+						<span>|</span>
+						<input type="text" id="money" placeholder="可输入1-200"/><br />
+					</div>
+					<button id="Btn2">赞赏</button>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="js/fastclick.js"></script>
+	<script>
+		var Btn1 = document.getElementsByClassName("Btn1");
+		var Quit = document.getElementsByClassName("quit");
+		var mask = document.getElementById("mask");
+		Btn1[0].ontouchstart = function() {
+			mask.style.display = 'block';
+		}
+		Quit[0].ontouchstart = function() {
+			mask.style.display = 'none';
+		}
+//		window.addEventListener('load', function() {
+//		  	FastClick.attach(document.body);
+//		}, false);
+	</script>
+</html>
