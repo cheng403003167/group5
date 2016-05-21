@@ -1,0 +1,174 @@
+header {
+	width: 100%;
+	height: 64px;
+	margin-bottom: 3.6%;
+}
+header > div{
+	width: 100%;
+	height: 64px;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background-color: #48382b;
+	box-shadow: 0 2px 2px #969692;
+}
+header > div > .head{
+	width: 120px;
+	height: 29px;
+	border-radius: 7px;
+	margin: 17px auto;
+}
+header > div > .head > a{
+	display: block;
+	float: left;
+}
+header > div > .suo {
+	width: 20px;
+	height: 22px;
+	display:inline-block;
+	position: absolute;
+	bottom: 11px;
+	right: 15px;
+}
+.tu1 {
+	width: 50%;
+	height: 100%;
+	background-color: #ddd;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	background:linear-gradient(#4f3e31,#433429);
+	box-shadow: 0px 1px 0px #2f241c;
+}
+.tu2{
+	width: 50%;
+	height: 100%;
+	background-color: #ddd;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background:linear-gradient(#4f3e31,#433429);
+	box-shadow: 0px 1px 0px #2f241c;
+}
+.ao1{
+	width: 50%;
+	height: 100%;
+	background-color: #ddd;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background:linear-gradient(#403228,#45352b);
+	box-shadow: 2px 0px 1px #362a21 inset, 0 2px 1px #2c221b inset,-1px 0px 0px #6c5441 inset, 0 -1px 0px #6c5441 inset;
+}
+
+.ao2{
+	width: 50%;
+	height: 100%;
+	background-color: #ddd;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	background:linear-gradient(#403228,#45352b);
+	box-shadow: 2px 0px 1px #362a21 inset, 0 2px 1px #2c221b inset,-1px 0px 0px #6c5441 inset, 0 -1px 0px #6c5441 inset;
+}
+.zi {
+	font-size: 1rem;
+	text-align: center;
+	color: #85755c;
+	line-height: 29px;
+}
+
+section ul {
+	width: 91.87%;
+	margin:  0 auto;
+}
+section ul > li {
+	width: 100%;
+	margin-bottom: 2.8%;
+}
+section ul > li > a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+section ul > li > a > div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+section ul > li > a .mengCeng {
+	background-color: #000;
+	opacity: 0.3;
+}
+section ul > li > a > div > p {
+	text-align: center;
+}
+section ul > li > a > div p:nth-of-type(1) {
+	color: #fdfcfb;
+	font-size: 1.4rem;
+	margin-top: 20.6%;
+} 
+section ul > li > a > div p:nth-of-type(2) {
+	color: #c2b7ad;
+	font-size: 1.0rem;
+}
+section ul > li > a > div p:nth-of-type(3) {
+	color: #727272;
+	font-size: 1.0rem;
+	position: absolute;
+	bottom: 13px;
+	right: 55px;
+}
+
+footer {
+	width: 100%;
+	height: 47px;
+}
+footer > div{
+	width: 100%;
+	height: 47px;
+	position: fixed;
+	bottom: 0;
+	background-color: #48382b;
+}
+footer > div > ul {
+	height: 100%;
+}
+footer > div > ul > li{
+	width: 20%;
+	text-align: center;
+	display: block;
+	float: left;
+} 
+footer > div > ul > li > a{
+	color: #c3ad88;
+	font-size: 1.0rem;
+}
+footer > div > ul > li > a:before{
+	content: "";
+	display: block;
+	width: 29px;
+	height: 18px;
+	margin: 6px auto 3px;
+	background-image: url("../img/fie.png");
+	background-size: 520%;
+
+} 
+.nav4 a{
+	color: #6ab439;
+}
+.nav1 a:before {
+	background-position: 0 -2px;
+} 
+.nav2 a:before {
+	background-position: -29px -2px;
+} 
+.nav3 a:before {
+	background-position: -63px -2px;
+} 
+.nav4 a:before {
+	background-position: -94px -22px;
+} 
+.nav5 a:before {
+	background-position: -121px -2px;
+}
+

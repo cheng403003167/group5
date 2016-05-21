@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
+		<link rel="stylesheet" type="text/css" href="css/file.css" />
+		<title>shiping</title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="clearfix head">
+					<a class="tu1 zi" id="quanzi" >圈子</a>
+					<a class="ao1 zi" id="shipin">视频</a>
+				</div>
+				<a href="###" class="suo"><img src="img/sousuo.png" alt="" /></a>	
+			</div>
+		</header>
+		<section>
+			<ul>
+				<li>
+					<a href="###">
+						<img src="img/tu1.png" alt="" />
+						<div>
+							<p>豆芽健康素 养生界的“四大天王”</p>
+							<p>身体“减肥”正当时</p>
+							<p>(视频)</p>
+						</div>
+						<div class="mengCeng"></div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/tu2.png" alt="" />
+						<div>
+							<p>脆皮曲奇 零食早餐都OK</p>
+							<p>水果与粗粮的完美组合</p>
+							<p>(视频)</p>
+						</div>
+						<div class="mengCeng"></div>
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="img/tu1.png" alt="" />
+						<div>
+							<p>豆芽健康素 养生界的“四大天王”</p>
+							<p>身体“减肥”正当时</p>
+							<p>(视频)</p>
+						</div>
+						<div class="mengCeng"></div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/tu2.png" alt="" />
+						<div>
+							<p>脆皮曲奇 零食早餐都OK</p>
+							<p>水果与粗粮的完美组合</p>
+							<p>(视频)</p>
+						</div>
+						<div class="mengCeng"></div>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<div>
+				<ul class="clearfix">
+					<li class="nav1"><a href="###">主页</a></li>
+					<li class="nav2"><a href="###">商城</a></li>
+					<li class="nav3"><a href="###">选菜</a></li>
+					<li class="nav4"><a href="###">发现</a></li>
+					<li class="nav5"><a href="###">我的</a></li>
+				</ul>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			var quanzi = document.getElementById("quanzi");
+			var shipin = document.getElementById("shipin");
+			quanzi.addEventListener("touchstart",function(){
+				quanzi.className = "zi ao2";
+				shipin.className = "zi tu2";
+			},false);
+			shipin.addEventListener("touchstart",function(){
+				quanzi.className = "zi tu1";
+				shipin.className = "zi ao1";
+			},false);
+		</script>
+	</body>
+</html>
